@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: lightgrey;
     margin: 0;
     font-weight: bold;
     padding: 0;
@@ -12,10 +12,11 @@ select {
 
 .container {
     max-width: 60%;
-    margin: 50px auto;
-    /* background-color: #fff; */
-    background: radial-gradient(circle at 0% 100%, #3be241bb 35%, white 36%, transparent 36%), radial-gradient(circle at 100% 0%, #3be241bb 35%, white 36%, transparent 36%);
-    padding: 20px;
+    margin: 1% auto;
+    background-color: #fff;
+    opacity: 1;
+    background: radial-gradient(circle at 0% 100%, #3be241bb 35%, rgba(255, 255, 255, 0.671) 36%, transparent 36%), radial-gradient(circle at 100% 0%, #3be241bb 35%, rgba(255, 255, 255, 0.767) 36%, #ffffffce 36%);
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -97,9 +98,9 @@ button:hover {
     
     .container {
         max-width: 60%;
-        margin: 50px auto;
+        margin: 2% auto;
         background-color: #fff;
-        padding: 20px;
+        padding: 10px;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
