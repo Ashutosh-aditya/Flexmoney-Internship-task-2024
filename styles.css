@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+}
+
+select {
+    width: 100%;
+}
+
+.container {
+    max-width: 60%;
+    margin: 50px auto;
+    /* background-color: #fff; */
+    background: radial-gradient(circle at 0% 100%, #3be241bb 35%, white 36%, transparent 36%), radial-gradient(circle at 100% 0%, #3be241bb 35%, white 36%, transparent 36%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+.userInfo,
+.paymentInfo {
+    flex: 1;
+    max-width: 48%; /* Adjust as needed */
+}
+
+.paymentInfo {
+    margin-left: 5%;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 90%; /* Change to 100% for full width on smaller screens */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:hover {
+    border: 1px solid #4caf50;
+}
+
+option {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 6%;
+    padding: 1.5%;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 768px) {
+    .userInfo,
+    .paymentInfo {
+        max-width: 100%;
+        margin-left: 0; /* Remove the left margin for the paymentInfo div */
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        font-weight: bold;
+        padding: 0;
+    }
+    
+    select {
+        width: 100%;
+    }
+    
+    .container {
+        max-width: 60%;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    
+    .userInfo,
+    .paymentInfo {
+        flex: 1 1 100%; /* Updated flex property to make them stack vertically */
+        max-width: 100%; /* Adjust as needed */
+    }
+    
+    .paymentInfo {
+        margin-left: 0; /* Remove the left margin for the paymentInfo div */
+    }
+    
+    label {
+        margin-bottom: 8px;
+    }
+    
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    
+    input:hover {
+        border: 1px solid #4caf50;
+    }
+    
+    option {
+        text-align: center;
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 6%;
+        padding: 1.5%;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+}
