@@ -20,6 +20,9 @@ The frontend of the admission form is built using HTML, CSS. The form is designe
 
 The backend of the form is implemented using PHP (phpmyadmin) and MYSQL. Basic validations are performed as specified in the assignment. The backend handles the storage of user information and payment details in the database.
 
+## E-R Diagram
+![image](https://github.com/Ashutosh-aditya/Flexmoney-Internship-task-2024/assets/78680582/dae4671c-11c8-4cfb-930d-20e9d3aa1645)
+
 
 ## Screenshorts
 ![image](https://github.com/Ashutosh-aditya/Flexmoney-Internship-task-2024/assets/78680582/9195003c-971a-4dde-9c58-c21761654d1e)
